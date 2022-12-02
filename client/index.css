@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/b6/3e/6a/b63e6a702d0d5dd3a0cfb5ce3bb6505b.png);
+    background-size:cover;
+    background-color: #232323;
+}
+
+header {
+    height: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    color: blanchedalmond;
+    font-size: x-large;
+}
+
+#h1 {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: blanchedalmond;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#asdf {
+    background-image: url(https://cdn.shopify.com/s/files/1/1425/8892/products/KON74145--Yu-Gi-Oh-Card-Back-Sleeves-50ct_da77d52d-fbd1-472c-8d87-243660b780ff.jpg?v=1585643869);
+    background-size: cover;
+    width: 320px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 50px;
+}
+
+button {
+    background-color: transparent;
+    width: 110px;
+    height: 30px;
+    color: blanchedalmond;
+    border: none;
+    margin: 25px -5px 20px;
+    justify-content: space-evenly;
+    font-weight:bold;
+    font-size:x-large;
+}
+
+button1{
+    background-color: transparent;
+    color: blanchedalmond;
+    border: none;
+    justify-content: space-evenly;
+    font-weight:bold;
+    font-size:xx-large;
+    background-color: rgb(35, 35, 35, 0.3);
+}
+.deleteCardBtn {
+    margin: 5px;
+    height: fit-content;
+    font-size:large;
+}
+
+input[type='text'] {
+    width: 65%;
+    height: 30px;
+    margin: 60px;
+    background-color: blanchedalmond;
+}
+
+#ratings-container {
+    width: 80%;
+    background-color: blanchedalmond;
+}
+
+#radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cover {
+    width: 200px; 
+    height: 300px;
+    margin: 0px 10px 100px 10px;
+}
+
+.cards-card {
+    background-color: rgb(35, 35, 35, 0.6);
+    width: 240px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-name {
+    font-size: large;
+    margin: -90px 0;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.card-rating {
+    width: 30%;
+    font-size: 20px;
+    margin: 30px 0;
+    color: blanchedalmond;
+}
+
+.btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content:center;
+    margin: 65px 0px 5px;
+}
+
+.btns-container > button {
+    width: 20px 0;
+}
+
+#quoteDisplay {
+    color: blanchedalmond;
+    background-color: rgb(35, 35, 35, 0.6);
+    font-size: x-large;
+    margin: 10px;
+}

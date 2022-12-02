@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Blue Eyes White Dragon",
+        "rating": 5,
+        "imageURL": "https://product-images.tcgplayer.com/fit-in/1302x1302/123525.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dark Magician",
+        "rating": 5,
+        "imageURL": "https://product-images.tcgplayer.com/fit-in/1302x1302/123493.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dark Magician Girl",
+        "rating": 5,
+        "imageURL": "https://product-images.tcgplayer.com/fit-in/1302x1302/123494.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Red-Eyes Black Dragon",
+        "rating": 5,
+        "imageURL": "https://product-images.tcgplayer.com/fit-in/1302x1302/144947.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Monster Reborn",
+        "rating": 5,
+        "imageURL": "https://product-images.tcgplayer.com/fit-in/1302x1302/222782.jpg"
+    }
+]
