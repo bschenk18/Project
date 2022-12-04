@@ -1,5 +1,5 @@
-const cardsContainer = document.querySelector('#cards-container')
-const form = document.querySelector('form')
+const cardsContainer = document.querySelector('#cards-container');
+const form = document.querySelector('form');
 
 const baseURL = 'http://localhost:4000/cards'
 
@@ -86,3 +86,25 @@ function newQuote() {
 let randomNumber = Math.floor(Math.random() * (quotes.length))
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber]
 }
+
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.nav-menu');
+
+menu.addEventListener('click', function() {
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+})
+
+const modal = document.getElementById('emial-model');
+const openBtn = document.querySelector('.main-Btn')
+const closeBtn = document.querySelector('.close-btn')
+
+openBtn.addEventListener('click', () => {
+    modal.style.display = 'block';
+});
+
+closeBtn.addEventListener('click', (e) => {
+    if(e.target === modal) {
+        modal.style.display = 'none';
+    }
+})
