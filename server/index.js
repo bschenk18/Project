@@ -18,7 +18,7 @@ app.delete('/cards/:id', deleteCard)
 app.put('/cards/:id', updateCard)
 
 
-const { login, register} = require('./controller')
+const {login, register} = require('./usersController')
 
 app.post(`/login`, login)
 app.post(`/register`, register)
