@@ -210,14 +210,14 @@
         font-size: x-large;
       }
       
-      #user-container {
+      /* #user-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
       }
-      
-      .user-card {
+       */
+      /* .user-card {
         background-color: blanchedalmond;
         width: 300px;
         margin: 20px; 
@@ -227,26 +227,38 @@
         border-radius: 12px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-      }
+      } */
       
       .username {
         font-size: 18px;
         margin: 5px 0;
+        color: transparent;
       }
       
       .email {
         font-size: 15px;
         margin: 5px 0;
+        color: transparent;
       }
       
       .first-name {
         font-size: 15px;
         margin: 5px 0;
+        color: transparent;
       }
       
       .last-name {
         font-size: 15px;
         margin: 5px 0;
+        color: transparent;
+      }
+      
+      .password{
+        color: transparent;
+      }
+
+      .confrimPassword{
+        color: transparent;
       }
       
       .btns-container {

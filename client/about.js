@@ -15,12 +15,14 @@ const baseURL = `http://localhost:4000`
 
 const login = body => axios.post(`${baseURL}/login`, body).then( res => {
   createUserCard(res.data)
+  window.location.href = "http://127.0.0.1:5500/client/profile.html"
 }).catch(err => {
   console.log(err)
   alert('Uh oh. Your request did not work.')
 })
 const register = body => axios.post(`${baseURL}/register`, body).then(res => {
   createUserCard(res.data)
+  window.location.href = "http://127.0.0.1:5500/client/home.html"
 }).catch(err => {
   console.log(err)
   alert('Uh oh. Your request did not work.')
