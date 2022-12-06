@@ -24,6 +24,65 @@
                 </ul>
             </nav>
         </div>
-        <iframe width="760" height="515" src="https://www.youtube.com/embed/Lq77PpXgxVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <header>
+            <h1>Login or Register</h1>
+        </header>
+        <main>
+    
+        <form id="login-form">
+            <h1>Log In</h1>
+            <input 
+                type='text'
+                id="login-username"
+                placeholder="Username"/>
+            <input 
+                type='password'
+                id="login-password"
+                placeholder='Password'/>
+                <section>
+                    <button>Sign In</button>
+                </section>
+        </form>
+        <form id="register-form">
+          <h1>Register</h1>
+          <input 
+              type='text'
+              id="register-username"
+              placeholder="Username"/>
+          <input 
+              type='text'
+              id="register-email"
+              placeholder='Email'/>
+          <input 
+              type='text'
+              id="register-firstName"
+              placeholder='First Name'/>
+          <input 
+              type='text'
+              id="register-lastName"
+              placeholder='Last Name'/>
+          <input 
+              type='password'
+              id="register-password"
+              placeholder='Password'/>
+          <input 
+              type='password'
+              id="register-password-2"
+              placeholder='Confirm Password'/>
+              <section>
+                <button>Register</button>
+              </section>
+      </form>
+    
+        <section id="user-info"></section>
+    
+        </main>
+        
+        <!-- <iframe width="760" height="515" src="https://www.youtube.com/embed/Lq77PpXgxVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./about.js"></script>
+
     </body>
-    <script src="./about.js"></script>
+</html>

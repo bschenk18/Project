@@ -17,5 +17,11 @@ app.post('/cards', addCard)
 app.delete('/cards/:id', deleteCard)
 app.put('/cards/:id', updateCard)
 
+
+const {login, register} = require('./usersController')
+
+app.post(`/login`, login)
+app.post(`/register`, register)
+
 //App.listen
 app.listen(4000, () => console.log('Its time to Duel!'))
