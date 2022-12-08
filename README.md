@@ -55,7 +55,7 @@ Design
             Include navbar
         Home, Profile, About CSS for styling
         Home, Profile, About JavaScript for functionality
-            cont baseURL
+            const baseURL
             Axios endpoints
             querySelector
             submitHandler
@@ -143,7 +143,7 @@ FRONTEND
             Add quote function
                 Random number function
                 Loop over array and create quotes
-                
+
     CSS
         Figure it out
 
