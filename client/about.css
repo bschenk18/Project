@@ -20,10 +20,6 @@
         align-items:center;
     }
 
-    iframe {
-        margin-top: 10rem;
-    }
-
     nav {
         display: flex; 
         justify-content:flex-end; 
@@ -209,25 +205,6 @@
         background-color: blanchedalmond;
         font-size: x-large;
       }
-      
-      /* #user-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-      }
-       */
-      /* .user-card {
-        background-color: blanchedalmond;
-        width: 300px;
-        margin: 20px; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 12px;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-      } */
       
       .username {
         font-size: 18px;

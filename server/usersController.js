@@ -35,13 +35,10 @@ module.exports = {
           lastName,
           passwordHash
         }
-        // console.log(user)
+        
         users.push(user)
         let userToReturn = {...user}
         delete userToReturn.passwordHash  
         res.status(200).send(userToReturn)
-        // console.log(req.body)
-        // users.push(req.body)
-        // res.status(200).send(req.body)
     }
 }
