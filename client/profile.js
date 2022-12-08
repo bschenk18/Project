@@ -1,11 +1,3 @@
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.nav-menu');
-
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
-})
-
 const cardsContainer = document.querySelector('#cards-container');
 const form = document.querySelector('form');
 
@@ -67,13 +59,3 @@ function displayCards(arr) {
 form.addEventListener('submit', submitHandler)
 
 getAllCards()
-
-// function handleSubmit(evt) {
-// 	evt.preventDefault();
-	
-// 	alert('Time to Duel!');
-// }
-
-let cards = document.querySelector('#contact');
-
-form.addEventListener('submit', handleSubmit);
